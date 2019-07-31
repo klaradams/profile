@@ -1,0 +1,100 @@
+body{
+/*  background-color: #ac8daf;*/
+  background-color: #d8eff0;
+  font-family: 'Roboto', sans-serif;
+  color: #969A97;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+h1{
+  color: #B689B0;
+  font-size: 32px;
+  font-family: 'Oswald', sans-serif;
+  line-height: 2;
+}
+
+h2{
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  color: #B689B0;
+  line-height: 1.6;
+}
+
+.img-circle {
+  width: 200px;
+  border-radius: 170px;
+}
+
+.connect > li > a {
+  color: #843b62;
+  font-size: 30px;
+}
+
+.connect > li > a:hover{
+  color: #311054;
+}
+
+#list-inline{
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+
+#list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+.main-card{
+  background: #fddede;
+  padding: 40px;
+  border: 2px solid lightgrey;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.connect-card{
+  background: #fddede;
+  padding: 40px;
+  border: 2px solid lightgrey;
+  width: 700px;
+  margin: 0 auto;
+  margin-top: 30px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.follow{
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  .main-card {
+    width: 700px;
+  }
+  .connect-card {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .main-card {
+    width: 500px;
+  }
+  .connect-card {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .main-card {
+    width: 300px;
+  }
+  .connect-card {
+    width: 300px;
+  }
+}
